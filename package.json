@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon index.js",
     "test": "jasmine-node spec",
-    "apidoc": "apidoc -i app -o public/docs/"
+    "apidoc": "apidoc -i app -o public/docs/",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -37,9 +39,11 @@
     "password-hash": "^1.2.2",
     "request": "^2.81.0",
     "require-dir": "^0.3.1",
-    "winston": "^2.3.1"
+    "winston": "^2.3.1",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5"
-  }
+  },
+  "snyk": true
 }
