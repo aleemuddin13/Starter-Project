@@ -33,7 +33,7 @@
     "jsonwebtoken": "^7.3.0",
     "mongoose": "^4.9.2",
     "morgan": "^1.8.1",
-    "nconf": "^0.8.4",
+    "nconf": "^0.11.4",
     "password-hash": "^1.2.2",
     "request": "^2.81.0",
     "require-dir": "^0.3.1",
